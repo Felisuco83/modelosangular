@@ -1,0 +1,6 @@
+<h1> Ver la secuencia de los números Collatz </h1>
+<ul>
+    <li *ngFor="let numero of numeros">
+        <a [routerLink]="['collatz/'+ numero]">{{numero}}</a>
+    </li>
+</ul>
